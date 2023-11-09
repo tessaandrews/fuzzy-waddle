@@ -7,7 +7,7 @@ export default function Contact () {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`The name you entered was: ${name}`)
+    alert(`You entered: ${name}`)
   }
 
   return (
