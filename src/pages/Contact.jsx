@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom/client';
 
 export default function Contact () {
   const [name, setName] = useState("");
-  const [email, setEmail]= useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -13,7 +12,7 @@ export default function Contact () {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>Enter your name:
+      <label>Name:
         <input 
           type="text" 
           value={name}
@@ -22,6 +21,7 @@ export default function Contact () {
       </label>
       <input type="submit" />
     </form>
+
   )
 }
 

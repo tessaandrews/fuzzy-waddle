@@ -2,6 +2,9 @@ export default function Resume() {
     return (
       <div>
 <h1>Resume</h1>
+<aside className="aside">
+<a href="./Resume/pdf" download>Download</a>
+</aside>
 
 <div className='profile'>Profile</div>
 
@@ -37,5 +40,6 @@ Basic Life Support - 2022
 Certified Nursing Assistant - 2023 - Biomedical CITI Research - 2022
 </p>
           </div>
+
 
     )};
