@@ -70,12 +70,10 @@ font-size: 40px;
 .home {
   text-align: center;
   font-size: 30px;
+  font-weight: 200 bold;
+  font-family:  Georgia, Times, 'Times New Roman';
 }
 
-.portfolio-body {
-  height: 20px;
-  width: 20px;
-}
 
 .aside {
   text-align: right;
@@ -83,11 +81,6 @@ font-size: 40px;
   color: black;
 }
 
-#img {
-  max-height: 300px;
-  max-width: 300px;
-  align-self: flex-end;
-}
 .mainHeader{
   text-align: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
