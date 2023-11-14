@@ -1,8 +1,8 @@
 #root {
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  background-color: rgb(158, 157, 168);
 }
 
 .logo {
@@ -28,16 +28,9 @@
   }
 }
 
-.card {
-  padding: 15em;
-}
 
-.read-the-docs {
-  color: #888;
-}
 #navtab {
-  background-color: rgb(81, 80, 94);
-  color:rgb(231, 225, 225);
+  background-color: rgb(0, 0, 0);
 }
 .nav-item {
 padding:30px;
@@ -78,10 +71,13 @@ font-size: 40px;
 .aside {
   text-align: right;
   font-family: Tahoma, sans-serif;
-  color: black;
 }
 
 .mainHeader{
   text-align: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list-group-item {
+  justify-content: space-between;
 }
