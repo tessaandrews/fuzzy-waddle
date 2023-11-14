@@ -81,3 +81,6 @@ font-size: 40px;
 .list-group-item {
   justify-content: space-between;
 }
+.head {
+  text-align: left;
+}

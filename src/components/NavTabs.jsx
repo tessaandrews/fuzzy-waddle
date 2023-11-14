@@ -50,5 +50,3 @@ function NavTabs() {
 
 export default NavTabs;
 
-{/* A single `Navigation` component within the header that will use `Link` components from `react-router-dom` to conditionally render the different sections of your portfolio*/}
-{/*About Me, Portfolio, Contact, Resume*/}
